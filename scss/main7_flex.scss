@@ -104,10 +104,12 @@ nav{
     //flex
     flex:3;
     text-align: center;
+    display: flex;
+    justify-content: space-around
     a{
         text-decoration: none;
         color: $text-color;
-        display: inline-block;
+        //display: inline-block;
         padding: 1em 2em;
     }
 }
